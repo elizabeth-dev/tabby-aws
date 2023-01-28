@@ -1,0 +1,12 @@
+image: elizabethdev/gitpod:tabby-aws
+
+jetbrains:
+  intellij:
+    prebuilds:
+      version: both
+    plugins:
+      - com.github.copilot
+
+tasks:
+  - init: yarn install
+    command: yarn run dev
