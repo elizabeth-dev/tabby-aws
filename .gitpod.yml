@@ -6,6 +6,7 @@ jetbrains:
       version: both
     plugins:
       - com.github.copilot
+      - jetbrains.plugins.jade
 
 tasks:
   - init: yarn install
